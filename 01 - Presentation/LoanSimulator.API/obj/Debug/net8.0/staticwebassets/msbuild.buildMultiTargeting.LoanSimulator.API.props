@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LoanSimulator.API.props" />
+</Project>

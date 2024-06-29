@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LoanSimulator.Shared/1.0.0": {
+        "dependencies": {
+          "LoanSimulator.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LoanSimulator.Shared.dll": {}
+        }
+      },
+      "LoanSimulator.Domain/1.0.0": {
+        "runtime": {
+          "LoanSimulator.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoanSimulator.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoanSimulator.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

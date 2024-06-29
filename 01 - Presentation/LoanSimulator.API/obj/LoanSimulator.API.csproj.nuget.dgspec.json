@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\01 - Presentation\\LoanSimulator.API\\LoanSimulator.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\01 - Presentation\\LoanSimulator.API\\LoanSimulator.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\01 - Presentation\\LoanSimulator.API\\LoanSimulator.API.csproj",
+        "projectName": "LoanSimulator.API",
+        "projectPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\01 - Presentation\\LoanSimulator.API\\LoanSimulator.API.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\01 - Presentation\\LoanSimulator.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\02 - Domain\\LoanSimulator.Domain\\LoanSimulator.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\02 - Domain\\LoanSimulator.Domain\\LoanSimulator.Domain.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\04 - CrossCutting\\LoanSimulator.Shared\\LoanSimulator.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\04 - CrossCutting\\LoanSimulator.Shared\\LoanSimulator.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\02 - Domain\\LoanSimulator.Domain\\LoanSimulator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\02 - Domain\\LoanSimulator.Domain\\LoanSimulator.Domain.csproj",
+        "projectName": "LoanSimulator.Domain",
+        "projectPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\02 - Domain\\LoanSimulator.Domain\\LoanSimulator.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\02 - Domain\\LoanSimulator.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\04 - CrossCutting\\LoanSimulator.Shared\\LoanSimulator.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\04 - CrossCutting\\LoanSimulator.Shared\\LoanSimulator.Shared.csproj",
+        "projectName": "LoanSimulator.Shared",
+        "projectPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\04 - CrossCutting\\LoanSimulator.Shared\\LoanSimulator.Shared.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\04 - CrossCutting\\LoanSimulator.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\02 - Domain\\LoanSimulator.Domain\\LoanSimulator.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Loan-Simulator Project\\loan-simulator\\02 - Domain\\LoanSimulator.Domain\\LoanSimulator.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

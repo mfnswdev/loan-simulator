@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{B2FFF40F-A47F-4274-82C1-1D4CEAFD6E01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{54DE7517-19AD-46F5-BDE5-A282054A415A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infrasctructure", "03 - Infrasctructure", "{02A63FF3-89EF-4349-95AC-6E7747B8F0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulator.API", "01 - Presentation\LoanSimulator.API\LoanSimulator.API.csproj", "{8BF53E23-8A00-42E6-9979-96715227DC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulator.Domain", "02 - Domain\LoanSimulator.Domain\LoanSimulator.Domain.csproj", "{72967CA1-8BB8-4700-B076-4D2B946AAAC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BF53E23-8A00-42E6-9979-96715227DC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF53E23-8A00-42E6-9979-96715227DC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF53E23-8A00-42E6-9979-96715227DC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF53E23-8A00-42E6-9979-96715227DC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72967CA1-8BB8-4700-B076-4D2B946AAAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72967CA1-8BB8-4700-B076-4D2B946AAAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72967CA1-8BB8-4700-B076-4D2B946AAAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72967CA1-8BB8-4700-B076-4D2B946AAAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BF53E23-8A00-42E6-9979-96715227DC73} = {B2FFF40F-A47F-4274-82C1-1D4CEAFD6E01}
+		{72967CA1-8BB8-4700-B076-4D2B946AAAC6} = {54DE7517-19AD-46F5-BDE5-A282054A415A}
+	EndGlobalSection
+EndGlobal

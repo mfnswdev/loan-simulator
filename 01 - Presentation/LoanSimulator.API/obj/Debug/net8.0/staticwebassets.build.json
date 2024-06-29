@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i4MHS8JbOcOxVkquQ5TARBr4E3xIDeR+Hj2gSMHZ5Mw=",
+  "Source": "LoanSimulator.API",
+  "BasePath": "_content/LoanSimulator.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
